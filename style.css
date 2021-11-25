@@ -88,18 +88,9 @@ nav {
   color: #505f79;
 }
 
-/* .works {
-  background-color: thistle;
-}
-
-.border{
-  background-color: rgb(160, 160, 160);
-} */
-
 .w1contain {
   display: flex;
   flex-direction: column;
-  /* border: rgb(182, 182, 182) 30px solid; */
   margin-left: 25px;
   margin-right: 25px;
   border-radius: 10px;
@@ -161,10 +152,29 @@ color: #344563;
   color: #396df2;
   background-color: white;
   border-radius: 10px;
+  transition: 100ms;
 }
 
 .w1btn2:hover{
   border: 1px solid #396df2;
   color: white;
   background-color: #396df2;
+}
+
+.w1btn3 {
+  padding: 7px 16px;
+  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.w1btn3:hover{
+  border: 1px solid #396df2;
+  color: white;
+  background-color: #396df2;
+  transition: 100ms;
 }
