@@ -27,9 +27,8 @@ nav {
   margin: 3px 0;
 }
 
-section {
+header section {
   background-image: url(background.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -70,10 +69,11 @@ section {
 
 .icon-list {
   display: flex;
+  list-style: none;
 }
 
 .fa {
-  list-style: none;
+  
   color: #505f79;
   margin-right: 10px;
 }
@@ -88,15 +88,57 @@ section {
   color: #505f79;
 }
 
-li {
-  list-style: none;
+.works-title {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
 }
 
-.pti {
-  margin-left: auto;
-  margin-right: auto;
+.w1contain {
+  display: flex;
+  flex-direction: column;
+  /* border: orchid 2px solid; */
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.works.title {
-  color: #172b4d; 
+.w11contain {
+  display: flex;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.spec1 {
+list-style: none;
+color: #344563;
+}
+
+.spec2 {
+  margin-left: 30px;
+  color: #7a869a;
+}
+
+.w1par {
+  width: 295px;
+  height: 76px;
+  margin-top: 20px;
+  color: #344563;
+  font-size: 17px;
+}
+
+.w1btn:disabled {
+  color: #6070ff;
+  font-size: 15px;
+  background: #eBeBff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.w1b:disabled{
+  margin-left: 10px;
 }
