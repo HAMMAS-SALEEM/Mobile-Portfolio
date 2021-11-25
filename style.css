@@ -91,3 +91,7 @@ section {
 li {
   list-style: none;
 }
+
+.works.title {
+  color: #172b4d; 
+}
