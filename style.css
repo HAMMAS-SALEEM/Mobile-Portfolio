@@ -92,6 +92,11 @@ li {
   list-style: none;
 }
 
+.pti {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .works.title {
   color: #172b4d; 
 }
