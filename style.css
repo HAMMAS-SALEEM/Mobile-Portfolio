@@ -178,3 +178,20 @@ color: #344563;
   background-color: #396df2;
   transition: 100ms;
 }
+
+.cont2 {
+  display: grid;
+  grid-template-rows: repeat(8 , 1fr);
+  grid-template-columns:  repeat(2 , 1fr);
+}
+
+.abm01 {
+  height: 24px;
+  width: 237px;
+}
+
+.abm03 {
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
