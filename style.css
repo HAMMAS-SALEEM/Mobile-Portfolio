@@ -188,10 +188,11 @@ color: #344563;
 .abm01 {
   height: 24px;
   width: 237px;
+  grid-column-start: 1;
+  margin-top: 10px;
 }
 
 .abm03 {
-
   grid-column-start: 1;
   grid-column-end: 2;
 }
